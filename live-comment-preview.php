@@ -112,8 +112,9 @@ function lcp_output_js() {
 				<li id="comment-preview">
 					<img src="' . $avatar_default . '" alt="" class="avatar avatar-' . $avatar_size . '" width="' . $avatar_size . '" height="' . $avatar_size . '"/>
 					<cite>COMMENT_AUTHOR</cite> Says:
-					<br />
+					<div aria-live="polite">
 					COMMENT_CONTENT
+					</div>
 				</li>
 			</ol>';
 	}
